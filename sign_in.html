@@ -1,12 +1,77 @@
-<html>
-    <head> Siva</head>
-    <script src="siva.js"></script>
-    <!doctype html>
-    <head> 
-        <link rel="stylesheet" href="sign.instyle.css"/>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css"/>
     </head>
-
     <body>
-        <h1 class="head">This is my first</h1>
+               <section class="container">
+                        <h1 class="registration-head">Registration Form</h1>
+                        <form class="form">
+                                <div class="input-box">
+                                    <lable>Full Name</lable>
+                                    <input type="text" placeholder="Enter full name" class="input" required/>
+                                    
+                                </div>
+                                <div class="input-box">
+                                    <lable>Email Adress </lable>
+                                    <input type="email" placeholder="Enter your Email"  class="input" recquired />
+                                    
+                                </div>
+                               
+                                         <div class="column">
+                                            <div class="input-box">
+                                                <lable>Phone number</lable>
+                                                <input type="number" placeholder="Enter your phone number" class="input"/>
+                                                
+                                            </div>
+                                            <div class="input-box">
+                                                <lable>Date of Birth</lable>
+                                                <input type="date" placeholder="Enter your Date of Birth"  class="input"/>
+                                                
+                                            </div>
+                                            
+                                        </div>
+
+                                        <div class="gender-box">
+                                            <h3>Gender</h3>
+                                            <div class="gender-option">
+                                                <div class="gender">
+                                                    <input type="radio" id="check-male" name="gender"/>
+                                                    <label>Male </label>
+                                                </div>
+                                                <div class="gender">
+                                                    <input type="radio" id="check-female" name="gender"/>
+                                                    <label>female </label>
+                                                </div>
+                                                <div class="gender">
+                                                    <input type="radio" id="check-other" name="gender"/>
+                                                    <label>Other</label>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="column">
+                                           
+                                            <div class="input-box">
+                                                <lable>Adresses</lable>
+                                                <input type="text" placeholder="Enter your street Adress" class="input" required/>
+                                                <input type="text" placeholder="Enter your street Adress line 2" class="input" required/>
+                                                <div class="column">
+                                                        <div class="select-box">
+                                                                <select>
+                                                                    <option>Country</option>
+                                                                    <option></option>
+                                                                    <option></option>
+                                                                </select>
+                                                        </div>
+                                                </div>
+                                                <input type="text" placeholder="Enter your City" class="input" required/>
+                                                <input type="text" placeholder="Enter your postal code" class="input" required/>
+                                        </div>
+                                
+                        </form>
+               </section>
     </body>
-</html>
+</html> 
